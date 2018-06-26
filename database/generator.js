@@ -1,4 +1,5 @@
 // How to run: node generator.js
+require('dotenv').config();
 const mysql = require('mysql');
 const config = require('./config');
 const fs = require('fs');
